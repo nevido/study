@@ -1,0 +1,10 @@
+kill `ps -aux | grep {user} | awk '{print $2}'`
+
+
+or 
+
+kill -9 `ps -aux | grep {user} | awk '{print $2}'`
+
+or
+
+pkill -u <user>
