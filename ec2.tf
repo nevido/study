@@ -1,8 +1,8 @@
 
 
-provider "aws" {
-    region = "ap-northeast-2"
-    }
+# provider "aws" {
+#     region = "ap-northeast-2"
+#     }
 
 # variable 블럭
 
